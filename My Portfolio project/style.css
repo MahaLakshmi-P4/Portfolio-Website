@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Home {
+    background: url(images/blue\ pg.jpeg) no-repeat center center/cover;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content {
+    position: fixed;
+    top: 0;
+    left: 30%;
+    width: 40%;
+    padding: 20px 0;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+}
+
+.nav-content a {
+    text-decoration: none;
+    font-weight: 600;
+    color: gold;
+    transition: 0.3s ease;
+}
+
+.nav-content a:hover {
+    color: white;
+    text-shadow: 0 0 25px white, 0 0 50px white;
+    border-bottom: 3px solid white;
+}
+
+.My-name {
+    margin-left: 20%;
+    margin-top: 3%;
+    color: rgb(246, 242, 242);
+}
+
+.My-name h1 {
+    font-size: 50px;
+}
+
+.My-name h2 {
+    font-size: 35px;
+}
+
+.My-name h3 {
+    font-size: 25px;
+}
+
+.My-name p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.My-name button {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px black;
+    color: black;
+    transition: .5s ease;
+}
+
+.My-name button:hover {
+    color: black;
+    box-shadow: 0 0 25px gold;
+    border: 2px gold;
+    cursor: pointer;
+    background-color: gold;
+}
+
+span {
+    font-size: 70px;
+    color: gold;
+}
+
+#about {
+    background: url(images/blue\ pg.jpeg);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-content {
+    width: 50%;
+    color: aliceblue;
+    height: 500px;
+}
+
+.about-content h1 {
+    font-size: 50px;
+    color: gold;
+}
+
+.about-content p {
+    font-size: 25px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin-top: 40px;
+}
+
+#skills {
+    background: url(images/blue\ pg.jpeg);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-content {
+    width: 30%;
+    color: aliceblue;
+    height: 500px;
+}
+
+.skill-content h1 {
+    font-size: 50px;
+    color: gold;
+}
+
+.skill-content p {
+    font-size: 25px;
+    line-height: 1.5;
+    word-spacing: 7px;
+    margin-top: 30px;
+}
+
+#contact {
+    background: url(images/blue\ pg.jpeg);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-content {
+    width: 30%;
+    color: aliceblue;
+    height: 300px;
+
+}
+
+.cont-content h2 {
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 40px;
+}
+
+.cont-content p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.cont-content p i {
+    color: gold;
+
+}
+
+.cont-msg {
+
+    height: 350px;
+
+
+}
+
+.cont-msg form {
+    width: 55%;
+
+}
+
+.cont-msg form input {
+    width: 100%;
+    padding: 25px;
+    margin: 15px 0px;
+    border-radius: 25px;
+
+}
+
+.cont-msg form textarea {
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 20px;
+
+}
+
+.cont-msg button {
+    color: black;
+    border-radius: 35px;
+    padding: 15px;
+    margin-left: 150px;
+    transition: 0.5s ease;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.cont-msg button:hover {
+    color: black;
+    box-shadow: 0 0 25px gold;
+    border: 2px gold;
+    cursor: pointer;
+    background-color: gold;
+    border: 1px solid gold;
+}
